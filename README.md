@@ -7,6 +7,6 @@
 
 # 🚩 Introduction
 
-<p>* **:musical_keyboard: Keylogger:** is a mobile app that converts text into numbers using semaphore code.<br>
+* **:musical_keyboard: Keylogger:** <p>is a mobile app that converts text into numbers using semaphore code.<br>
 Semaphore code is a visual communication system that<br> uses flags to represent letters and numbers.
 Semaphoreify is a great way to send messages in a fun and unique way. It is also a great way to learn about semaphore code.</p>
