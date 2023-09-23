@@ -14,9 +14,9 @@ and the following are the functions of this website system</p>
 
 
 * **🎌 Text2Semaphore:**
-  * The keylogger will turn on if the user is texting in the chat or using the bank's website.
+  * Translate a text to Semaphore Codes
 * **✍ Semaphore2Text:**
-  * Clipper turns on and replaces crypto wallet addresses in the clipboard when a user makes a transaction.
+  * Translate A Semaphore Code to Plain Text
 
 # 🖼 Preview
 
