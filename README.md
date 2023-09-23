@@ -17,5 +17,5 @@ and the following are the functions of this website system</p>
   * The keylogger will turn on if the user is texting in the chat or using the bank's website.
 * **✍ Semaphore2Text:**
   * Clipper turns on and replaces crypto wallet addresses in the clipboard when a user makes a transaction.
-* **:camera: Webcam screenshots:**
-  * Webcam screenshots will be taken if the user is watching something obscene on the Internet.
+
+# 🖼 Preview
