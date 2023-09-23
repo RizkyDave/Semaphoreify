@@ -1,4 +1,4 @@
-# Semaphoreify | Text2Semaphore
+
 <p align="center">
   <img src="https://github.com/Dappy-Net/Semaphoreify/blob/main/static/Text%20to%20semaphore.png"> <br>
   <b>Stealer + Clipper + Keylogger</b> <br>
