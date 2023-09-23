@@ -13,7 +13,6 @@ app.get('/smp', (req, res) => {
 
 // folder handler
 
-
 app.use('/static', express.static('./static'))
 
 
