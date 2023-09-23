@@ -40,4 +40,4 @@ and if anyone wants this project to continue you can support us using
 
 
 ## License
-This project is licensed under [MIT License](https://github.com/DappyNet13/JARVIS.py/blob/main/LICENSE) 2022 DappyNet Industry
+This project is licensed under [MIT License](https://github.com/Dappy-Net/Semaphoreify/blob/main/LICENSE) 2022 DappyNet Industry
