@@ -21,7 +21,8 @@ and the following are the functions of this website system</p>
 # 🖼 Preview
 
 <img src="https://github.com/Dappy-Net/Semaphoreify/blob/main/assets/demos.png"> <br>
-![See the full version](https://semaphoreify.gwryzen.repl.co)
+
+[See the full version](https://semaphoreify.gwryzen.repl.co)
 <br>
 
 # 🏗 Made With
