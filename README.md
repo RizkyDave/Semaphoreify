@@ -7,6 +7,6 @@
 
 # 🚩 Introduction
 
-<p align="center">Semaphoreify is a mobile app that converts text into numbers using semaphore code.</p>
-<p align="center">Semaphore code is a visual communication system that uses flags to represent letters and numbers. </p>
-<p align="center">Semaphoreify is a great way to send messages in a fun and unique way. It is also a great way to learn about semaphore code.</p>
+<p>Semaphoreify is a mobile app that converts text into numbers using semaphore code.</p>
+<p>Semaphore code is a visual communication system that uses flags to represent letters and numbers. </p>
+<p>Semaphoreify is a great way to send messages in a fun and unique way. It is also a great way to learn about semaphore code.</p>
