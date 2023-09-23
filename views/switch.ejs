@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semaphoreify | Semaphore To Text</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="icon" type="image/x-icon" href="/static/logo.svg">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    .header {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .footer {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    #semaphore-numbers {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #f9f9f9;
+}
+
+  
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Semaphoreify</h1>
+  </header>
+
+  <!-- Content -->
+
+ <div class="content">
+   
+  <h2>Translate Semapore To Text</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="mb-3">
+      <label for="plain-text">Semaphore Numbers</label>
+      <textarea class="form-control" id="semaphore-numbers" name="semaphore-numbers" rows="3"></textarea>
+    </div>
+  </div>
+
+ 
+  
+  <div class="col-md-6">
+    <div class="mb-3">
+      <label for="semaphore-numbers">Plain Teks</label>
+      <textarea class="form-control" id="plain-text" name="plain-text"rows="3" readonly></textarea>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-primary" id="TombolMulai">Translate Plain Texts</button>
+
+    <a href="/"> <button type="button" class="btn btn-primary" id="switchButton">Switch Systems</button>
+    </a>
+<!-- Results -->
+</div>
+
+
+
+
+  
+  <div class="content">
+    <h2>What is Semaphoreify?</h2>
+    <p>Semaphoreify is a mobile app that converts text into numbers using semaphore code. Semaphore code is a visual communication system that uses flags to represent letters and numbers. Semaphoreify is a great way to send messages in a fun and unique way. It is also a great way to learn about semaphore code.</p>
+
+    <h2>How to use Semaphoreify</h2>
+    <ol>
+      <li>Open the Semaphoreify in your browser.</li>
+      <li>Select a translator and fill in the box</li>
+      <li>Tap the "Generate" button to generate the semaphore code.</li>
+      <li>Share the code with your friends and family using any messaging app.</li>
+    </ol>
+  </div>
+  
+
+ <!-- Form -->
+
+
+
+<!-- Footer -->
+<footer class="footer">
+  <b><p>Copyright &copy; 2023 DappyNet.co</p></b>
+  
+  
+  <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/">Home</a></li>
+                <li class="list-inline-item"><a href="https://github.com/Dappy-Net?tab=repositories">Services</a></li>
+                <li class="list-inline-item"><a href="https://g.dev/DappyNet">About</a></li>
+                <li class="list-inline-item"><a href="https://www.paypal.com/paypalme/RizkyDaffy">Support Us</a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/ryzen.x15/">Contact me</a></li>
+            </ul>
+        </footer>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script>
+// Function to convert semaphore numbers to text and display the results
+function convertNumbersToTextAndDisplay() {
+  // Create a map of letters to numbers (reversed mapping).
+  const numberToLetterMap = {
+    "0.1": "A",
+    "0.2": "B",
+    "0.3": "C",
+    "0.4": "D",
+    "0.5": "E",
+    "0.6": "F",
+    "0.7": "G",
+    "1.2": "H",
+    "1.3": "I",
+    "4.6": "J",
+    "1.4": "K",
+    "1.5": "L",
+    "1.6": "M",
+    "1.7": "N",
+    "2.3": "O",
+    "2.4": "P",
+    "2.5": "Q",
+    "2.6": "R",
+    "7.2": "S",
+    "4.2": "T",
+    "3.5": "U",
+    "4.7": "V",
+    "5.6": "W",
+    "5.7": "X",
+    "3.6": "Y",
+    "6.5": "Z",
+  };
+
+  // Get the semaphore numbers from the input element.
+  const semaphoreNumbersInput = document.getElementById("semaphore-numbers").value;
+
+  // Split the semaphore numbers and convert them to text.
+  const numbersArray = semaphoreNumbersInput.split(",");
+  const textArray = numbersArray.map((number) => numberToLetterMap[number] || number);
+
+  // Join the text elements and convert to uppercase.
+  const uppercaseText = textArray.join("").toUpperCase();
+
+  // Get the plain text output element.
+  const plainTextOutput = document.getElementById("plain-text");
+
+  // Display the converted text in uppercase in the Plain Text output element.
+  plainTextOutput.value = uppercaseText;
+  plainTextOutput.style.color = "green";
+}
+
+// Add an event listener to the button to call the `convertNumbersToTextAndDisplay()` function.
+document.getElementById("TombolMulai").addEventListener("click", () => {
+  // Convert the semaphore numbers to text and display the results.
+  convertNumbersToTextAndDisplay();
+});
+
+
+</script>
+
+
+
+</body>
+</html>
