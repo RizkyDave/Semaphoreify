@@ -30,5 +30,14 @@ and these are the requirements to make this projects.
 - [Replit](https://replit.com/@GwRyzen/Semaphoreify)
  - [Ejs](https://ejs.co/) (For The Handler)
  - [JavaScript](https://www.javascript.com/) (For The System translator)
- - [💖 Love](https://www.paypal.com/paypalme/RizkyDaffy)(for the intention of making this)
+ - [💖 Love](https://www.paypal.com/paypalme/RizkyDaffy) (for the intention of making this)
 
+## Support Me 
+if you like our project you can support us by giving ⭐ in this repo
+and if anyone wants this project to continue you can support us using
+- 👝 paypal : paypal.me/RizkyDaffy
+- 🤑 saweria : https://trakteer.id/DappyNet
+
+
+## License
+This project is licensed under [MIT License](https://github.com/DappyNet13/JARVIS.py/blob/main/LICENSE) 2022 DappyNet Industry
