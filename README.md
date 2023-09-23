@@ -30,5 +30,5 @@ and these are the requirements to make this projects.
 - [Replit](https://replit.com/@GwRyzen/Semaphoreify)
  - [Ejs](https://ejs.co/) (For The Handler)
  - [JavaScript](https://www.javascript.com/) (For The System translator)
- - [♥ Love](https://www.paypal.com/paypalme/RizkyDaffy)
+ - [💖 Love](https://www.paypal.com/paypalme/RizkyDaffy)
 
