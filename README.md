@@ -27,7 +27,8 @@ and the following are the functions of this website system</p>
 # 🏗 Made With
 this projects is using somestuff to make this<br>
 and these are the requirements to make this projects.
-- [Visual Studio 2022 (v17.*)](https://visualstudio.microsoft.com/vs/)
- - [NET SDK 6.0.*](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) (included in Visual Studio 2022)
- - [NET Framework SDK 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) (included in Visual Studio 2022)
+- [Replit](https://replit.com/@GwRyzen/Semaphoreify)
+ - [Ejs](https://ejs.co/) (For The Handler)
+ - [JavaScript](https://www.javascript.com/) (For The System translator)
+ - [♥ Love](https://www.paypal.com/paypalme/RizkyDaffy)
 
