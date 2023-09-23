@@ -19,3 +19,5 @@ and the following are the functions of this website system</p>
   * Clipper turns on and replaces crypto wallet addresses in the clipboard when a user makes a transaction.
 
 # 🖼 Preview
+
+<img src="https://github.com/Dappy-Net/Semaphoreify/blob/main/assets/demos.png"> <br>
