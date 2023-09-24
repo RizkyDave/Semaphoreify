@@ -29,8 +29,8 @@ and the following are the functions of this website system</p>
 this projects is using somestuff to make this<br>
 and these are the requirements to make this projects.
 - [Replit](https://replit.com/@GwRyzen/Semaphoreify)
- - [Ejs](https://ejs.co/) (For The Handler)
- - [JavaScript](https://www.javascript.com/) (For The System translator)
+ - [Insta.js](https://insta.js.org/#/) (For The Handler)
+ - [node-fetch](https://www.javascript.com/) (For The System translator)
  - [💖 Love](https://www.paypal.com/paypalme/RizkyDaffy) (for the intention of making this)
 
 ## Support Me 
